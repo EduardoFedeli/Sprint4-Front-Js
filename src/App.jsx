@@ -1,6 +1,6 @@
 import Menu from './Menu'
 import Rodape from './Rodape'
-import './styles/style.scss'
+import './styles/produtos.scss'
 import { Outlet } from 'react-router-dom'
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
             <Menu />
             <Outlet />
             <Rodape />
+
         </>
     )
 }

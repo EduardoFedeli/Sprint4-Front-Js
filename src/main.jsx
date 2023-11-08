@@ -1,7 +1,9 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import App from './App'
-import Home from './routes/Home/home'
-import Error from './routes/Error/error'
+import Home from './routes/Home/Home'
+import Error from './routes/Error/Error'
 import Produtos from './routes/Produtos/produtos'
 
 
@@ -18,6 +20,10 @@ const router = createBrowserRouter([
     {
       path: "/produtos",
       element: <Produtos />
+    },
+    {
+      path: "/antiga",
+      element: <Navigate to="/" />
     }
     ]
   }
