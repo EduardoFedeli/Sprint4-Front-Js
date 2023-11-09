@@ -2,7 +2,7 @@ export default function Rodape(){
 
     return(
         <footer>
-            <p>Rodapé</p>
+            <h1 className='footer'>&copy; 2023 CleanWave. Todos os direitos reservados</h1>
         </footer>
     )
 }

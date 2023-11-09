@@ -7,6 +7,8 @@ export default function Menu(){
             <Link to='/'>Home</Link>
             <span>  |  </span>
             <Link to='/produtos'>Produtos</Link>
+            <span>  |  </span>
+            <Link to='/armazenamento'>Armazenamento</Link>
         </nav>
     )
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Produtos() {
@@ -96,9 +96,6 @@ function Produtos() {
           ))}
         </ul>
       </div>
-      <footer className="footer">
-        <h1 className='footer'>&copy; 2023 CleanWave. Todos os direitos reservados</h1>
-      </footer>
     </div>
   );
 }

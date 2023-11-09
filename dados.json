@@ -1,6 +1,9 @@
 {
-    "produtos": [
-      { "id": 1, "nome": "Mouse", "preço": 9.99 },
-      { "id": 2, "nome": "Teclado", "preço": 14.99 }
-    ]
-  }
+  "produtos": [
+    {
+      "nome": "Privada inteligente",
+      "preço": 8000,
+      "id": 1
+    }
+  ]
+}
