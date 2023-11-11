@@ -1,0 +1,10 @@
+Aqui está todos os comandos que você precisa executar para instalar as necessidades do código
+
+npm install -D tailwindcss postcss autoprefixer
+
+npm install sass 
+
+npm install --save -g -D json-server
+
+npm install react-bootstrap
+
