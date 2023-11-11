@@ -1,7 +1,10 @@
 import  { useState } from 'react';
 import { Button, Modal, Form } from 'react-bootstrap';
 
+
+
 function Home() {
+  
   const [showModal, setShowModal] = useState(false);
 
   const handleClose = () => setShowModal(false);
@@ -10,28 +13,30 @@ function Home() {
   return (
     <div>
       <Button variant="primary" onClick={handleShow}>
-        Abrir Modal
+        Abrir Formulário Modal
       </Button>
 
       <Modal show={showModal} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Exemplo de Formulário Modal</Modal.Title>
-        </Modal.Header>
         <Modal.Body>
           <Form>
             <Form.Group controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Label>Endereço de E-mail</Form.Label>
+              <Form.Control type="email" placeholder="Digite seu E-mail" />
             </Form.Group>
             <Form.Group controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Label>Senha:</Form.Label>
+              <Form.Control type="password" placeholder="Digite sua senha" />
             </Form.Group>
             <Button variant="primary" type="submit">
               Enviar
             </Button>
           </Form>
         </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Fechar Formulário
+          </Button>
+        </Modal.Footer>
       </Modal>
     </div>
   );
