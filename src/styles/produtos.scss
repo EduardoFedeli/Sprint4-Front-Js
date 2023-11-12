@@ -147,3 +147,9 @@ padding-bottom: 2.5rem;
   justify-content: center;
   height: 100vh; /* Ajuste conforme necessário */
 }
+
+
+.caixa{
+  display: flex;
+  flex-direction: column;
+}

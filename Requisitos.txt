@@ -8,3 +8,4 @@ npm install --save -g -D json-server
 
 npm install react-bootstrap
 
+npm install react-dom 
