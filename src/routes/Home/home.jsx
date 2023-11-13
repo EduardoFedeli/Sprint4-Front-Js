@@ -11,7 +11,7 @@ function Home() {
   const handleShow = () => setShowModal(true);
 
   return (
-    <div classname="caixa">
+    <div>
       <Button variant="primary" onClick={handleShow}>
         Abrir Formulário Modal
       </Button>
